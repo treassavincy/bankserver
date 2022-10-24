@@ -1,0 +1,13 @@
+jwt- token generation for user authentication.
+library for token generation is jsonwebtoken
+installation --->  npm i jsonwebtoken
+using sign() method for token generation
+verify() method for token validation
+
+
+
+*token generatd and send to client
+*token validation  - middleware creation(it is a method having 3 args- req,res,next)  
+2 types middleware-
+1.application specific middleware 
+2.router specific middleware
